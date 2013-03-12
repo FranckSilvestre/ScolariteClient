@@ -20,7 +20,7 @@ class ScolariteServiceTest extends GroovyTestCase {
     Etudiant pauline = scolariteService.getEtudiantById(1)
     assertEquals("Pauline", pauline.prenom)
     assertEquals("Dupont", pauline.nom)
-    assertEquals(4, pauline.evaluations.size())
+    assertEquals(3, pauline.evaluations.size())
     println pauline
   }
 
